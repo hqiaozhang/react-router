@@ -1,0 +1,21 @@
+{
+
+    "code": 1,
+    "message": "成功",
+    "result":[
+      {
+        "id":1, 
+        "author": "Pete Hunt", 
+        "text": "This is one comment"
+      },{
+        "id":2, 
+        "author": "Jordan Walke", 
+        "text": "This is *another* comment"
+      },{
+        "id": 3,
+        "author": "zhq",
+        "text": "The first instance of react"
+    }
+
+  ]
+}
