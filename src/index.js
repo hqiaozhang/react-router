@@ -11,6 +11,7 @@ const App = React.createClass({
       <Router history={hashHistory}>
         <Route path='/' component= {Home} />
         <Route path='/About' component= {About} />
+        <Route path='/Mys' component= {Mys} />
       </Router>
     )
   }
@@ -19,7 +20,7 @@ const App = React.createClass({
 const Home = React.createClass({
   render(){
     return (
-      <div>Home</div>
+      <div><Link to='/About'>Home</Link></div>
     )
   }
 })
@@ -27,12 +28,12 @@ const Home = React.createClass({
 const About = React.createClass({
   render(){
     return (
-      <a>Aoubt me</a>
+     <div> <Link to='/Mys'>Aoubt me</Link> </div>
     )
   }
 })
 
-const My = React.createClass({
+const Mys = React.createClass({
   render(){
     return (
       <div>I am Zhang</div>
